@@ -13,7 +13,7 @@ const Index = props => {
                     const name = document.getElementById('nameInput').value;
 
                     axios
-                        .post('api_gateway_endpoint',{name: name})
+                        .post('https://k40z59nxri.execute-api.ap-northeast-2.amazonaws.com/staging/Amplify_Request_Fuction',{name: name})
                         .then((response)=>{
                             console.log(response)
                             setText(response.data)
