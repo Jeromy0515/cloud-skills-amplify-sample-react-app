@@ -1,5 +1,6 @@
 # Cloud Skills Amplify Sample React Application
 
+## How to Use
 You can use this service here 👉 https://www.mjpark.space
 
 ## 🖐Here is an architecture
